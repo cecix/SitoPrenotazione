@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!-- Template by Quackit.com -->
+<!-- Images by various sources under the Creative Commons CC0 license and/or the Creative Commons Zero license. 
+Although you can use them, for a more unique website, replace these images with your own. -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Il Duca</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <link href="css/cssindex.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+	</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Logo and responsive toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="\">
+                	<span class="glyphicon glyphicon-cutlery"></span> 
+                	IL DUCA
+                </a>
+			</div>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="\">Home</a>
+                    </li>
+                    <li>
+                        <a href="#piatti">Piatti</a>
+                    </li>
+                    <li>
+                        <a href="#eventi">Eventi</a>
+                    </li>
+                    <li>
+                        <a href="#dovesiamo">Dove siamo</a>
+                    </li>
+					 <li>
+                        <a href="#contatti">Contatti</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+
+	<!-- Feature -->
+	<div class="jumbotron feature">
+		<div class="container">
+			<h1><span class="glyphicon glyphicon-king"></span>Il Duca</h1>
+			<p>La fantasia dei nostri chef non vi annoierà mai proponendo piatti sempre diversi e sfiziosi.</p>
+		</div>
+	</div>
+
+
+    <!-- Heading -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="text-center" id="piatti">Qualità dei nostri piatti</h1>
+                <p class="lead text-center">Potrete sempre scegliere tra un piatto di terra, di mare o uno dei nostri terzi piatti sfiziosi, una minestra o un piatto freddo.
+
+Come ultima portata avrete sempre la scelta tra la frutta di stagione, una macedonia di frutta fresca condita, un gelato o uno dei dessert preparati dal nostro chef pasticcere.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Promos -->
+	<div class="container-fluid">
+        <div class="row promo">
+        	<a href="#piatti">
+				<div class="col-md-4 promo-item item-1">
+					<h3>
+						Primi
+					</h3>
+				</div>
+            </a>
+            <a href="#piatti">
+				<div class="col-md-4 promo-item item-2">
+					<h3>
+						Secondi
+					</h3>
+				</div>
+            </a>
+			
+			<a href="#piatti">
+				<div class="col-md-4 promo-item item-3">
+					<h3>
+						Dolci
+					</h3>
+				</div>
+            </a>
+        </div>
+    </div><!-- /.container-fluid -->
+	<div class="container text-center">
+		<h1 id="eventi">Eventi</h1>
+		<p class="lead">Il 15/11/17, come ospite speciale avremo il famosissimo cuoco Grant Achatz - 3 stelle Michelin.
+		Punto forte: l’inventiva, uno dei pionieri della cucina molecolare. Non troverete alcuna carte da cui scegliere, solo un menu degustazione da circa 20 portate che possono includere tartufo nero, ricci di mare e un dessert dipinto sulla tovaglia.
+		Il personale di sala, giovane, cortese e dinamico, è a vostra disposizione per farvi trascorrere una serata indimenticabile.
+		Vi aspettiamo.</p>
+		<div class="col-sm-6">
+                    <img class="img-responsive img-circle center-block" src="images/tavolo.jpg" alt="">
+                </div>
+				<div class="w3-panel w3-red">
+				<form action="prenotazione.php" method="post">
+				<div class="col-sm-6">
+				<h2 style="color: #dd845a;" class="section-header">Prenota ora un posto nel ristorante.</h2><p class="lead text-muted"> </p>
+					<input type="text" name="nome" class="text" placeholder=" Inserisci il tuo nome"><br />
+					<input type="text" name="cognome" class="text" placeholder=" Inserisci il tuo cognome"><br />
+					<input type="text" name="email" class="emailSubmitSidebar" placeholder=" Inserisci la tua e-mail"><br />
+					<input type="text" name="telefono" class="text" placeholder=" Inserisci il tuo numero"><br />
+					<form name="form1">
+					<input type="submit" name="submit" class="submitButton" value="Prenota">
+					</form>
+					</div>
+					</form>
+					</div>
+	</div><!--/.container-->
+	
+		
+	<!-- Footer -->
+	<footer>
+	
+		<h1 id="dovesiamo"class="text-center">Dove Trovarci</h1>
+		<!-- Map -->	
+			
+			
+				<div class="row">
+					<div class="col-sm-12 footer-info-item text-center">
+<div id="map" style="width:1200px;height:400px;background:yellow;" class="container text-center"></div>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(43.23086485393389,13.160165190565749),
+    zoom: 15,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var myCenter = new google.maps.LatLng(43.23086485393389,13.160165190565749);
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+var marker = new google.maps.Marker({position:myCenter,animation: google.maps.Animation.BOUNCE});
+  marker.setMap(map);
+var infowindow = new google.maps.InfoWindow({
+    content: "Il Duca"
+  });
+  infowindow.open(map,marker);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXj8CiDS6La1msOWDnCFRZPlk2Rj2Efqo&callback=myMap"></script>
+						
+						<p class="lead">
+							San Severino Marche (MC), Viale Mazzini, 45
+						</p>
+						<h2 id="contatti">Contattaci</h2>
+						<p class="lead"><span class="glyphicon glyphicon-phone-alt"></span> +0733 637934<br>
+						ilduca@example.com</p>
+					</div>
+				</div>
+			</div>
+			
+        <!-- Copyright etc -->
+        <div class="small-print">
+        	<div class="container">
+        		
+        		<p>Copyright &copy; ilduca.com 2018 </p>
+        	</div>
+        </div>
+        
+	</footer>
+
+	
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<!-- IE10 viewport bug workaround -->
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+	
+</body>
+
+</html>
